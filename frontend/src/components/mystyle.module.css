@@ -1,0 +1,29 @@
+.messages {
+  border: 2px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.msgtypo {
+  border: 2px;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0px 5px 0.5px 5px;
+}
+
+.inbox {
+  background-image: url(../Pages/background.png);
+  background-size: contain;
+  background-position: center;
+  image-rendering: pixelated;
+  image-resolution: 300dpi;
+}
